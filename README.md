@@ -1,1 +1,3 @@
 # EggChat-MiniProgram
+
+Learning project
