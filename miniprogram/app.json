@@ -2,14 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/dashboard",
     "pages/dashboard/dashboard"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#2f3136",
+    "navigationBarTitleText": "EggChat",
+    "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json"
 }

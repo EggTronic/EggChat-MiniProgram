@@ -1,8 +1,8 @@
 //app.ts
 export interface IMyApp {
-  userInfoReadyCallback?(res: wx.UserInfo): void
+  userInfoReadyCallback?(res: WechatMiniprogram.UserInfo): void
   globalData: {
-    userInfo?: wx.UserInfo
+    userInfo?: WechatMiniprogram.UserInfo
   }
 }
 
@@ -16,6 +16,7 @@ App<IMyApp>({
     // 登录
     wx.login({
       success(_res) {
+        console.log(_res)
         // console.log(_res.code)
         // 发送 _res.code 到后台换取 openId, sessionKey, unionId
       }
