@@ -1,13 +1,14 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button class="userinfo-login" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="container theme-dark">
+  <view class="logo">
+    <image src="{{logo}}"></image>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="welcome">
+    <text class="welcome-title">{{welcomeTitle}}</text>
+    <text class="welcome-text">{{welcomeText}}</text>
+  </view>
+  <view class="authorize">
+    <egg-button open-type="getUserInfo"
+      bindgetuserinfo="getUserInfo"> {{loginText}} </egg-button>
   </view>
 </view>

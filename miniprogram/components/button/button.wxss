@@ -1,1 +1,12 @@
 /* components/button.wxss */
+
+.button {
+  color: #fff;
+  background-color: var(--button-primary);
+  width: 95vw;
+  border-radius: 7rpx;
+}
+
+.button_hover {
+  filter: brightness(0.9);
+}

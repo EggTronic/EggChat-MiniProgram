@@ -1,2 +1,4 @@
 <!--components/button.wxml-->
-<text>components/button.wxml</text>
+<button class='button' hover-class="button_hover" open-type='{{openType}}' type='{{type}}' bindgetuserinfo="onGetUserInfo">
+  <slot></slot>
+</button>
