@@ -29,7 +29,7 @@ page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50rpx;
+  margin-bottom: 20rpx;
 }
 
 .welcome-title {
@@ -46,5 +46,5 @@ page {
 }
 
 .authorize {
-  margin-bottom: 50rpx;
+  margin: 30rpx;
 }

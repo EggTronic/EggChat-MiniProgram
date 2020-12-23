@@ -45,4 +45,12 @@
   --activity-card-background: #202225;
   --textbox-markdown-syntax: #8e9297;
   --button-primary: #7289da;
+  --button-warning: #7289da;
+  --line-primary: #40444b;
+}
+
+.line {
+  width: 100%;
+  height: 1rpx;
+  background: var(--line-primary);
 }

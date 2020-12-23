@@ -7,6 +7,7 @@
     <text class="welcome-title">{{welcomeTitle}}</text>
     <text class="welcome-text">{{welcomeText}}</text>
   </view>
+  <view class="line"/>
   <view class="authorize">
     <egg-button open-type="getUserInfo"
       bindgetuserinfo="getUserInfo"> {{loginText}} </egg-button>

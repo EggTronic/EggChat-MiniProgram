@@ -9,7 +9,7 @@ Page({
     welcomeTitle: '欢迎来到 EggChat',
     welcomeText: '加入拥有超过0人的EggChat社区',
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    loginText: ' 使用微信登录',
+    loginText: ' 微信登录',
     logo: '../../assets/logo.svg'
   },
   //事件处理函数
